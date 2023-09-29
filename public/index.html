@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Validation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
 </head>
+
 <body>
-  
+
+  <div class="container">
+    <form>
+      <center>
+        <h1> Login</h1>
+      </center>
+      <div class="container">
+        <label>Username : </label> <br>
+        <input id="username" type="text"> <br>
+        <label>Password : </label> <br>
+        <input id="password" type="password"> <br>
+        <button type="button" onclick=validate()>Login</button> <br>
+        <div id="ans">
+          <b>
+            <p id="result"></p>
+          </b>
+        </div>
+      </div>
+    </form>
+  </div>
 </body>
+
 </html>
